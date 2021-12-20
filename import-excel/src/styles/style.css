@@ -1,0 +1,101 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+	font-family: Arial;
+	/* width: 600px; */
+  /* margin: auto; */
+}
+
+.outer-container {
+	background: #F0F0F0;
+	border: #e0dfdf 1px solid;
+	padding: 40px 20px;
+	border-radius: 2px;
+}
+
+.btn-submit {
+	border: #1d1d1d 1px solid;
+	border-radius: 2px;
+	color: #f0f0f0;
+	cursor: pointer;
+	/* padding: 5px 20px; */
+	font-size: 0.9em;
+}
+
+.tutorial-table {
+	margin-top: 40px;
+	font-size: 0.8em;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.tutorial-table th {
+	background: #f0f0f0;
+	border-bottom: 1px solid #dddddd;
+	padding: 8px;
+	text-align: left;
+}
+
+.tutorial-table td {
+	background: #FFF;
+	border-bottom: 1px solid #dddddd;
+	padding: 8px;
+	text-align: left;
+}
+
+#response {
+	padding: 10px;
+	margin-top: 10px;
+	border-radius: 2px;
+	display: none;
+}
+
+.success {
+	background: #c7efd9;
+	border: #bbe2cd 1px solid;
+}
+
+.error {
+	background: #fbcfcf;
+	border: #f3c6c7 1px solid;
+}
+
+div#response.display-block {
+	display: block;
+}
+
+.title{
+  text-align: center;
+}
+
+#submitBtn {
+  margin: 8px 0 0 0;
+  width: 100%;
+  padding: 8px 0;
+  border-radius: 4px;
+  border: 1px solid;
+}
+
+#submitBtn:hover{
+  background-color: #00f;
+  color: #fff;
+}
+
+ul.column-choices {
+  padding-left: 0;
+}
+
+.li-choices {
+  list-style-type: none;
+  background-color: rgb(199, 197, 197);
+  margin-top: 2px;
+  padding: 8px;
+}
+
+.li-choices:hover {
+  background-color: #333;
+  color: #fff;
+}
